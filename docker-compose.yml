@@ -27,8 +27,8 @@ services:
       - 7070:7070
     environment:
       - BINDMAN_NAMESERVER_ADDRESS=bind
-      - BINDMAN_NAMESERVER_KEY_FILE=Ktest.com.+157+50086.key
-      - BINDMAN_NAMESERVER_ZONE=test.com
+      - BINDMAN_NAMESERVER_KEY_FILE=Kmahdi-asadzadeh.ir.+157+50086.key
+      - BINDMAN_NAMESERVER_ZONE=mahdi-asadzadeh.ir
       - BINDMAN_DNS_REMOVAL_DELAY=1
       - BINDMAN_DEBUG=false
 
