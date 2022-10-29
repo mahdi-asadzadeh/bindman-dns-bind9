@@ -75,3 +75,4 @@ func (m *Bind9Manager) getRecordNameAndType(fileName string) (string, string) {
 	i := strings.LastIndex(subName, ".")
 	return subName[:i], subName[i+1:]
 }
+
